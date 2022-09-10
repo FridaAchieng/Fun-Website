@@ -1,3 +1,36 @@
-body{
-  background-color: mediumpurple;
+
+header{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+.nav1{
+  display:flex;
+  justify-content:space-around;
+  align-item:center;
+}
+.logo{
+  letter-spacing: 5px;
+  font-weight:bold;
+}
+.nav-links{
+  display:flex;
+  justify-content:space-around;
+  width:20%;
+}
+.nav-links li{
+  list-style:none;
+}
+.nav-links a{
+  letter-spacing:3px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:14px;
+}
+.container{
+  width:100%;
+  postion:absolute;
+  top:50%;
+  text-align:center;
+  transform:translateY(50%);
 }
